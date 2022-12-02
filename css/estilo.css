@@ -1,0 +1,203 @@
+/*
+* 
+* @author Saymon Farias Alberto
+*/
+
+html, body, #home {
+    height: 100%;
+    overflow-x:hidden;
+}
+
+body {
+        background: url(../imagens/capa.png),
+                    url(../imagens/ruido.png),
+                    linear-gradient(50deg,#0a6638,#08f828);
+                    background-attachment: fixed;
+                    font-family: Helvetica, Arial, sans-serif;
+}
+
+nav.navbar-transparente {
+    padding: 15px 0;
+    background: rgba(0, 0, 0, 0.6);
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+
+    color: #01fa22;
+
+}
+
+.navbar-light .navbar-toggler {
+    color: rgba(255,255,255,.5);
+    border-color: rgba(252, 253, 255, 0.329);
+}
+
+.divisor {
+color: white;
+width: 1px;
+margin: 12px 15px;
+background: white;
+
+}
+
+
+.capa{
+    text-align: center;
+
+}
+
+h1 {
+    font-weight: 900;
+    letter-spacing: -0.05em;
+    margin-bottom: 50px;
+    color: white;
+
+}
+
+.btn-custom {
+    color: white;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    text-transform: uppercase;
+    transition: background 0.4s, color 0.4s;
+    padding: 15px 30px;
+    margin:10px 15px;
+    font-style: Arial;
+
+}
+
+.btn-verde{
+    background: #00130380;
+    color: white;
+}
+
+.btn-verde:hover{
+    background: #001303;
+    color: white;
+}
+
+.btn-branco{
+    border: 2px solid white;
+ 
+}
+.btn-branco:hover{
+    background-color: white;
+    color: #001303;
+}
+
+.caixa {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#servicos {
+    background: white;
+
+}
+
+#servicos h2,h3 {
+    color: #0a6638;
+}
+
+#servicos h3 {
+    color: #0a6638;
+
+}
+
+#recursos h2, h3 {
+    color: rgb(226, 224, 224);
+
+}
+
+#recursos {
+    color: rgb(255, 255, 255);
+}
+
+.albuns {
+    padding: 10px 0;
+    
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -ms-transform: rotate (30deg);
+    -webkit-transform: rotate(30deg);
+    padding-left: 80px;
+}
+
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: -0.04em;
+}
+
+footer {
+    background:black;
+    color: white;
+    text-align: justify;
+
+}
+
+footer h4{
+    color: rgb(207, 206, 206);
+    font-size: 1em;
+    text-transform: uppercase;
+
+}
+
+footer .navbar-nav a{
+    color: white;
+    font-size: 0.8em;
+
+}
+
+footer .navbar-nav a:hover{
+    color: rgb(207, 206, 206);
+    text-decoration: none;
+}
+
+footer ul {
+list-style: none;
+
+}
+
+footer ul li {
+    float: right;
+    margin: 0 5px;
+    
+    }
+
+
+/**Extra small devices (portrait phones, less than 576px)**/
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) { 
+    h1 {font-size: 3em;}
+ }
+
+/**Medium devices (tablets, 768px and up)**/
+@media (min-width: 768px) { 
+    h1 {font-size: 4em;}
+}
+
+/**Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) { 
+    h1 {font-size: 5em;}
+}
+
+/**Extra large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) { }
