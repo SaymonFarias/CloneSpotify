@@ -193,6 +193,8 @@ footer ul li {
     footer .navbar-nav a{
     margin: auto;    }
     footer h4 {margin: 12px 0;};
+        display-1 {display: flexbox;
+                text-align: center;    }
 
 
 }
