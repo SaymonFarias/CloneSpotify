@@ -149,7 +149,7 @@ footer {
     background:black;
     color: white;
     text-align: justify;
-
+    position: relative;
 }
 
 footer h4{
@@ -183,10 +183,22 @@ footer ul li {
 
 
 /**Extra small devices (portrait phones, less than 576px)**/
+@media (max-width: 576px){
+    .navbar-toggler {margin-right: 2em;}
+    .navbar-brand {margin-left: 2em;}
+    footer .navbar-nav a{
+    margin: auto;    }
+    footer h4 {margin: 12px 0;};
+
+
+}
+
+
 
 /** Small devices (landscape phones, 576px and up)**/
 @media (min-width: 576px) { 
     h1 {font-size: 3em;}
+    .navbar-toggler {margin-right: 2em;}
  }
 
 /**Medium devices (tablets, 768px and up)**/
