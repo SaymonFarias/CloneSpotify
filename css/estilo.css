@@ -52,12 +52,6 @@ background: white;
 
 }
 
-.carousel-control-next, .carousel-control-prev {
-    width: 5%;
-    
-
-}
-
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -156,6 +150,10 @@ footer {
     color: white;
     text-align: justify;
     position: relative;
+<<<<<<< HEAD
+=======
+
+>>>>>>> ca30335e0f6b515b0b136e13c4eac74f536d76f7
 }
 
 footer h4{
@@ -195,13 +193,8 @@ footer ul li {
     footer .navbar-nav a{
     margin: auto;    }
     footer h4 {margin: 12px 0;};
-    display-1 {display: flex;
-                text-align: center;    
-               }
-    .display-1 {
-        vertical-align: auto;
-        align-self: center;
-    }
+        display-1 {display: flexbox;
+                text-align: center;    }
 
 
 }
