@@ -190,7 +190,11 @@ footer ul li {
     margin: auto;    }
     footer h4 {margin: 12px 0;};
         display-1 {display: flexbox;
-                text-align: center;    }
+                text-align: center;  
+               }
+        .display-1 { font-size: 5em;}
+        .btn-custom{ font-size: 1em;}
+
 
 
 }
