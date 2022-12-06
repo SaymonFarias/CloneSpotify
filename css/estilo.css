@@ -52,6 +52,12 @@ background: white;
 
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+    
+
+}
+
 h1 {
     font-weight: 900;
     letter-spacing: -0.05em;
@@ -190,7 +196,12 @@ footer ul li {
     margin: auto;    }
     footer h4 {margin: 12px 0;};
     display-1 {display: flex;
-                text-align: center;    }
+                text-align: center;    
+               }
+    .display-1 {
+        vertical-align: auto;
+        align-self: center;
+    }
 
 
 }
